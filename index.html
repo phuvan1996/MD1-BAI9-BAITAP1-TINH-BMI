@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var canNang = +prompt('vui long nhap so can nang');
+    var  chieuCao = +prompt('vui long nhap chieu cao');
+    var bmi = canNang/(chieuCao*chieuCao)
+    if (bmi < 18){
+        alert('chi so bmi la:'+"gay"+bmi)
+    }
+    else if(bmi <25 ){
+        alert('chi so bmi la:'+"can doi" +bmi)
+    }else if (bmi <35 ){
+        alert('chi so bmi la:'+"beo phi" +bmi)
+    }
+</script>
+</body>
+</html>
